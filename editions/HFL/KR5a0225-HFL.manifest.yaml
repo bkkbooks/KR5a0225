@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5a0225/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0225/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 清微齋法
+  date: '2015-08-28 23:42:39.108443'
+  source:
+    repository: kanripo
+    path: KR5a0225
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0225_000-HFL.yaml, hash: 'sha256:fa1c20179984b60114c0e47110667e2d43d61ef26549590104157ff1a4f4678d'}
+  - {seq: 1, filename: KR5a0225_001-HFL.yaml, hash: 'sha256:1b990bffdd33b4809428918b58e6c86affa22cec7916758e58091058afe75a6b'}
+  - {seq: 2, filename: KR5a0225_002-HFL.yaml, hash: 'sha256:20212a290decd0f01e96acc34957fef613bbcc18b49ee9243c01baef9851ca16'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5a0225_001-HFL.markers.yaml, hash: 'sha256:8fe528ccdbebabd4b87b9b218fe54f5699397fc9732f65889b5c3f6db232712c'}
+  - {seq: 2, role: markers, filename: assets/KR5a0225_002-HFL.markers.yaml, hash: 'sha256:d2a636d41b971f6b7e299bdd570cd4fe642374f1b5d7a91fa212c035fb47a75b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5a0225_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 9900
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5a0225_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 6450
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:3178517f48b601731f83a1b86f591d77096c7b68cda6b0306b006210432f617b
